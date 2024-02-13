@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="Suite" parallel="tests" thread-count="4">
+<!--.........................TC01.........................-->
+    <test name="Chrome">
+        <parameters>
+            <parameter name="browser" value="chrome"/>
+        </parameters>
+        <classes>
+            <class name="tests.TC01">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Firefox">
+        <parameters>
+            <parameter name="browser" value="firefox"/>
+        </parameters>
+        <classes>
+            <class name="tests.TC01"/>
+        </classes>
+    </test>
+<!--    ....................................................................................................-->
+
+<!--    &lt;!&ndash;.........................TC02.........................&ndash;&gt;-->
+    <test name="Chrome">
+        <parameters>
+            <parameter name="browser" value="chrome"/>
+        </parameters>
+        <classes>
+            <class name="tests.TC02">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Firefox">
+        <parameters>
+            <parameter name="browser" value="firefox"/>
+        </parameters>
+        <classes>
+            <class name="tests.TC02"/>
+        </classes>
+    </test>
+<!--        ....................................................................................................-->
+
+<!--&lt;!&ndash;    .........................TC03.........................&ndash;&gt;-->
+<!--        <test name="Chrome">-->
+<!--            <parameters>-->
+<!--                <parameter name="browser" value="chrome"/>-->
+<!--            </parameters>-->
+<!--            <classes>-->
+<!--                <class name="tests.TC03VerifyListProduct">-->
+<!--                </class>-->
+<!--            </classes>-->
+<!--        </test>-->
+
+<!--        <test name="Firefox">-->
+<!--            <parameters>-->
+<!--                <parameter name="browser" value="firefox"/>-->
+<!--            </parameters>-->
+<!--            <classes>-->
+<!--                <class name="tests.TC03VerifyListProduct"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--&lt;!&ndash;        ....................................................................................................&ndash;&gt;-->
+
+
+<!--    .........................TC04.........................-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC04VerifyViewProductDetail">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC04VerifyViewProductDetail"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    ....................................................................................................-->
+
+<!--&lt;!&ndash;    .........................TC06.........................&ndash;&gt;-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC06VerifyCreateBarcodeSuccess">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC06VerifyCreateBarcodeSuccess"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--&lt;!&ndash;    ....................................................................................................&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    .........................TC05.........................&ndash;&gt;-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC05VerifyBarcodeLabel">-->
+<!--                &lt;!&ndash;                <methods>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <include name="TC_03" />&ndash;&gt;-->
+<!--                &lt;!&ndash;                </methods>&ndash;&gt;-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC05VerifyBarcodeLabel"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    &lt;!&ndash;    ....................................................................................................&ndash;&gt;-->
+
+<!--        .........................TC07.........................-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC07VerifyAddSaleSuccess">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC07VerifyAddSaleSuccess"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--        ....................................................................................................-->
+
+<!--&lt;!&ndash;    .........................TC08.........................&ndash;&gt;-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC08VerifyPurchasesList">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC08VerifyPurchasesList"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--&lt;!&ndash;    ....................................................................................................&ndash;&gt;-->
+
+    <!--    .........................TC09.........................-->
+<!--    <test name="Chrome">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="chrome"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC09AddPurchasesSuccess">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Firefox">-->
+<!--        <parameters>-->
+<!--            <parameter name="browser" value="firefox"/>-->
+<!--        </parameters>-->
+<!--        <classes>-->
+<!--            <class name="tests.TC09AddPurchasesSuccess"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <!--    ....................................................................................................-->
+</suite>
