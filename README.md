@@ -6,7 +6,7 @@ Requirement:
 + Must be run with 2 browsers Chrome and Firefox with selenium grid(20%)
 
 TC_CreateNewCategory:
-Action: 
+- Action: 
 1. Navigate to https://admin-demo.nopcommerce.com/login to login with valid user and pass .
 Email: admin@yourstore.com
 Pass: admin
@@ -16,7 +16,7 @@ Pass: admin
 5. Click button Save
 6. Logout
 
-Excepted Result
+- Excepted Result
 1. Login success.
 - The screen [Admin] displayed (Verify menu left present on Admin page)
 2. The screen [Categories] displayed. Verify present on Categories page (Add new, Export, Import, Delete, Category name, Published)
@@ -24,7 +24,7 @@ Excepted Result
 6. Logout success.
 
 TC_CreateNewCustomer:
-Action:
+- Action:
 1. Navigate to https://admin-demo.nopcommerce.com/login to login with valid user and pass .
 Email: admin@yourstore.com
 Pass: admin
@@ -34,7 +34,7 @@ Pass: admin
 5. Click button Save
 6. Logout
 
-Excepted Result:
+- Excepted Result:
 1. Login success.
 - The screen [Admin] displayed (Verify menu left present on Admin page)
 2. The screen [Products] displayed. Verify present on Categories page (Add new, Export, Import, Delete, Product name, Warehouse, Category and Product type)
