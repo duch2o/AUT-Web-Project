@@ -17,8 +17,7 @@ Pass: admin
 6. Logout
 
 - Excepted Result
-1. Login success.
-- The screen [Admin] displayed (Verify menu left present on Admin page)
+1. Login success. The screen [Admin] displayed (Verify menu left present on Admin page)
 2. The screen [Categories] displayed. Verify present on Categories page (Add new, Export, Import, Delete, Category name, Published)
 5. Display message: The new category has been added successfully.
 6. Logout success.
@@ -35,8 +34,7 @@ Pass: admin
 6. Logout
 
 - Excepted Result:
-1. Login success.
-- The screen [Admin] displayed (Verify menu left present on Admin page)
+1. Login success. The screen [Admin] displayed (Verify menu left present on Admin page)
 2. The screen [Products] displayed. Verify present on Categories page (Add new, Export, Import, Delete, Product name, Warehouse, Category and Product type)
 5. Display message: The new product has been added successfully.
 6. Logout success.
